@@ -99,7 +99,7 @@ main .Titulo-gestao-portuaria img {
 }
 
 .soluçoes {
-  height: 70vh;
+  height: 80vh;
   justify-content: space-evenly;
   background-color: #D8D8D8;
   display: flex;
@@ -114,11 +114,26 @@ main .Titulo-gestao-portuaria img {
 }
 .soluçoes section {
   display: flex;
+  width: 80%;
   justify-content: space-evenly;
 }
 .soluçoes article {
   display: flex;
-  border: bo;
-  width: 22%;
+  background-color: white;
+  width: 22rem;
   flex-direction: column;
+  height: 25rem;
+}
+.soluçoes article h5 {
+  font-size: 1.5rem;
+  font-family: "Oswald", "sans-serif";
+  font-weight: 500;
+  margin-left: 5%;
+}
+.soluçoes article p {
+  font-family: "Oswald", "sans-serif";
+  font-size: 1.5em;
+  font-weight: 200;
+  margin-left: 5%;
+  height: 30rem;
 }/*# sourceMappingURL=style.css.map */
