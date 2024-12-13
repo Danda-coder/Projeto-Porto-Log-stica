@@ -44,21 +44,26 @@ header .contato {
 }
 
 main .container_background_image {
+  font-family: "Oswald", "sans-serif";
   height: 100vh;
   background-image: url("./imagens/background.png");
   background-repeat: no-repeat;
   background-size: cover;
+  padding: 8rem;
 }
 main .container_background_image h1 {
   padding-left: 4rem;
   font-size: 6rem;
   color: #FFFFFF;
   font-weight: 700;
+  margin-bottom: 5px;
+  font-family: "Oswald", "sans-serif";
 }
 main .container_background_image p {
   padding-left: 4rem;
   color: #FFFFFF;
-  font-family: "Oswald", "sans-serif";
+  font-weight: 300;
+  margin-bottom: 25px;
 }
 main .container_background_image button {
   margin-left: 4rem;
@@ -68,6 +73,7 @@ main .container_background_image button {
   width: 15.6rem;
   font-weight: 700;
   font-size: 1.5em;
+  margin-bottom: 15px;
 }
 main .Titulo-gestao-portuaria {
   display: flex;
@@ -76,15 +82,17 @@ main .Titulo-gestao-portuaria {
   padding: 3rem;
 }
 main .Titulo-gestao-portuaria div {
-  margin-left: 3rem;
-  width: 30%;
+  margin-left: 7rem;
+  width: 26%;
 }
 main .Titulo-gestao-portuaria div h4 {
   font-size: 1.5em;
   color: #0017E9;
+  margin-bottom: 25px;
 }
 main .Titulo-gestao-portuaria div h2 {
   font-size: 2.25em;
+  margin-bottom: 25px;
 }
 main .Titulo-gestao-portuaria div p {
   font-size: 1.5em;
@@ -99,7 +107,7 @@ main .Titulo-gestao-portuaria img {
 }
 
 .soluçoes {
-  height: 80vh;
+  height: 70vw;
   justify-content: space-evenly;
   background-color: #D8D8D8;
   display: flex;
@@ -123,17 +131,41 @@ main .Titulo-gestao-portuaria img {
   width: 22rem;
   flex-direction: column;
   height: 25rem;
+  margin-bottom: 15px;
 }
-.soluçoes article h5 {
+.soluçoes h5 {
   font-size: 1.5rem;
   font-family: "Oswald", "sans-serif";
   font-weight: 500;
   margin-left: 5%;
 }
-.soluçoes article p {
+.soluçoes p {
   font-family: "Oswald", "sans-serif";
   font-size: 1.5em;
   font-weight: 200;
   margin-left: 5%;
-  height: 30rem;
+}
+
+.Atendimento {
+  display: flex;
+  padding-top: 2rem;
+}
+.Atendimento h2 {
+  margin-bottom: 15px;
+  width: 21em;
+  margin-left: 5%;
+  height: 2rem;
+  align-items: center;
+  font-family: "Oswald", "sans-serif";
+  color: #0017E9;
+}
+.Atendimento h3 {
+  margin-bottom: 15px;
+  font-family: "Oswald", "sans-serif";
+  width: 28rem;
+  margin-left: 5%;
+}
+.Atendimento div {
+  display: flex;
+  margin-left: 5%;
 }/*# sourceMappingURL=style.css.map */
